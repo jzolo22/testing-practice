@@ -19,3 +19,13 @@
     - verify the functionality of a single function/component
   - Static 
     - catch typos and errors while writing code
+    - like ESLint
+
+## **Basic Test Example**
+```js
+const expected = true
+const actual = false
+
+if (actual !== expected){
+    throw new Error(`${actual} is not ${expected}`)
+}
