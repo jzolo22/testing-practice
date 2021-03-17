@@ -8,6 +8,13 @@
   - verify that best practices and conventions are being followed
 - comfort and confidence!
 
+## **Jest**
+- test framework
+- provides certain tools:
+  - test runner
+  - assertion libary
+  - utilites for mocking
+
 ## **Types of Tests**
 (From highest overview to most specific)
 - End-to-End
@@ -29,3 +36,14 @@ const actual = false
 if (actual !== expected){
     throw new Error(`${actual} is not ${expected}`)
 }
+```
+
+## **A Jest Test**
+```js
+const expected = true
+const actual = false
+
+test("it works", () => { // test runner
+    expect(actual).toBe(expected) // the assertion libary provides this
+})
+```
