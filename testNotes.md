@@ -1,4 +1,4 @@
-## **What is a test?**
+## **What is a Test?**
 - code you write to verify the behavior of your application
 
 ## **Why Test**
@@ -27,6 +27,8 @@
   - Static 
     - catch typos and errors while writing code
     - like ESLint
+
+> want to have a very tight feedback loop and as few dependencies as possible
 
 ## **Basic Test Example**
 ```js
