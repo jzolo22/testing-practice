@@ -30,6 +30,13 @@
 
 > want to have a very tight feedback loop and as few dependencies as possible
 
+> the more the tests resemble the way the software works, the better
+
+## **Testing Pyramid**
+- Unit Test at bottom (spend most time here)
+- Integration tests
+- E2E tests
+
 ## **Basic Test Example**
 ```js
 const expected = true
